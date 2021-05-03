@@ -66,6 +66,7 @@
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+    font-size:x-large;
     margin-top:100px;
   }
   
@@ -87,7 +88,8 @@
     color:black;
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    font-size:x-large;
     margin-top:100px;
   }
   
