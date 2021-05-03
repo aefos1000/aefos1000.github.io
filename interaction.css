@@ -54,7 +54,7 @@
   
  
   
-  .hovereffect p, .hovereffect h2 {
+  .hovereffect p, .hovereffect h1 {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
@@ -63,6 +63,28 @@
     opacity: 0;
     filter: alpha(opacity=0);
     color: #fff;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    margin-top:100px;
+  }
+  
+  .hovereffect:hover p, .hovereffect:hover h1 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .hovereffect p, .hovereffect h2 {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color:black;
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
