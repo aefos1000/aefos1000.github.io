@@ -1,7 +1,8 @@
 (function(){
     var words = [
-        ' illustrator',
-        ' artist',
+        'an illustrator',
+        'an artist',
+        'a designer'
         
         
         ], i = 0;
