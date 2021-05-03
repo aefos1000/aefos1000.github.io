@@ -218,7 +218,7 @@ nav{
   }
   footer ul li a:hover {
     text-decoration:none;
-    color:white;
+    color:rgba(132, 147, 121);
   }
   footer svg {
     width:20%;
