@@ -73,6 +73,7 @@ nav{
 /* IMAGE GALLERY CSS */
 .image-gallery {
     height: 100%;
+    background-color: rgb(241, 230, 216);
     display: grid;
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
@@ -132,7 +133,7 @@ nav{
     height: 100vh !important;
     background-color: rgb(174, 102, 24);
     padding: 20vh 50px 0 50px;
-    column-count: 2;
+   /* column-count: 2;*/
 }
 
 .about-me img{
