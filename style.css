@@ -73,7 +73,6 @@ nav{
 /* IMAGE GALLERY CSS */
 .image-gallery {
     height: 100%;
-    background-color: rgb(241, 230, 216);
     display: grid;
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
